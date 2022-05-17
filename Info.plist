@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.games</string>
+	<key>CFBundleIconFile</key>
+	<string>TLauncher</string>
+	<key>CFBundleExecutable</key>
+	<string>TLauncher</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.turikhay.tlauncher.TLauncher</string>
+	<key>CFBundleDisplayName</key>
+	<string>TLauncher</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TLauncher</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<string>True</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0 (GitHub)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Contributors: Pugemon &amp; mctaylors, TL by turikhay</string>
+	<key>JVMRuntime</key>
+	<string>zulu-8.jdk</string>
+	<key>JVMMainClassName</key>
+	<string>ru.turikhay.tlauncher.bootstrap.BootstrapStarter</string>
+	<key>JVMOptions</key>
+	<array>
+		<string>-Duser.dir=$APP_ROOT/Contents</string>
+		<string>-Xdock:name=TLauncher</string>
+	</array>
+	<key>JVMArguments</key>
+	<array/>
+</dict>
+</plist>
